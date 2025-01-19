@@ -1,10 +1,17 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import PageNotFound from './pages/PageNotFound';
+
 function App() {
   return (
-    <>
-      <h1 className="text-bold font-Montserrat text-2xl text-teal-600">
-        Champion Quiz
-      </h1>
-    </>
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='*' element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </>
   );
 }
 
