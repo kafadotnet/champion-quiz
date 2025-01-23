@@ -33,7 +33,7 @@ const PageNotFound = () => {
           <h3 className="pt-6 text-center font-Montserrat text-xl font-semibold text-white">
             The quiz
           </h3>
-          <p className="text-white pt-4">The quiz contains 10 questions and these are time bound through timer.</p>
+          <p className="text-white pt-4">The quiz contains 10 questions and these are time bound through timer (10 sec. Max).</p>
         </div>
         <div className="About-quiz text-white">
           <h3 className="pt-6 text-center font-Montserrat text-xl font-semibold text-white">
