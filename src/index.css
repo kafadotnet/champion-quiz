@@ -5,10 +5,17 @@
 @tailwind utilities;
 
 .btn {
-  @apply cursor-pointer rounded-full bg-green-500 px-6 py-2 text-lg font-semibold text-white;
+  @apply cursor-pointer rounded-full bg-green-500 px-6 py-2 text-lg font-semibold text-white shadow-xl;
 }
 .btn:hover {
   @apply bg-green-600;
+}
+
+.btn-submit {
+  @apply cursor-pointer bg-gray-700 text-white py-2 px-4 rounded-sm font-semibold;
+}
+.btn-submit:hover {
+  @apply bg-gray-600;
 }
 
 .btn-start {
@@ -16,4 +23,12 @@
 }
 .btn-start-font {
   @apply text-lg font-semibold uppercase text-white;
+}
+
+.answer-correct {
+  @apply bg-green-500;
+}
+
+.answer-incorrect {
+  @apply bg-red-500;
 }
