@@ -28,7 +28,7 @@ const InstructionsPage = () => {
             About the general knowledge quiz
           </h3>
           <p className="pt-4 text-white">
-            You can test your General knowledge skills with Champion' Quiz.
+            You can test your General knowledge skills with Champions Quiz.
           </p>
         </div>
         <div className="About-quiz text-white">
