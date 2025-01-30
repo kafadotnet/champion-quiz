@@ -10,7 +10,7 @@ const GetStarted = () => {
         <nav className="flex justify-between px-8 py-8">
           <div>
             <h1>
-              <NavLink to="/" className="p-5 text-3xl font-semibold text white">
+              <NavLink to="/" className="p-5 text-xl font-semibold text white">
                 Champion Quiz
               </NavLink>
             </h1>

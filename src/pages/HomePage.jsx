@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Quiz from "../components/Quiz";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,7 @@ const HomePage = () => {
             <h1>
               <NavLink
                 to="/"
-                className="sm:text-md p-4 text-3xl font-semibold text-white"
+                className="sm:text-md p-2 text-xl font-semibold text-white"
               >
                 Champion Quiz
               </NavLink>
@@ -30,23 +31,13 @@ const HomePage = () => {
           </ul>
         </nav>
 
-        <main className="px-10 py-10">
+        <main className="quiz-main px-10 py-10">
           <header className="mt-2 p-8 text-center">
-            <h3 className="text-lg font-semibold text-white">...</h3>
+            <h3 className="text-lg font-semibold text-white">
+              Quiz for Champions
+            </h3>
           </header>
-
-          <div className="flex items-center justify-center p-2">
-            <div className="answer-correct flex h-[300px] w-[800px] flex-col justify-center rounded-md text-center shadow-xl">
-              <h1 className="mb-2 text-2xl font-semibold text-white">...</h1>
-              <button className="text-md btn-submit btn:hover mt-20 px-2 py-2 text-white">
-                Next Question <i className="fa-solid fa-forward"></i>
-              </button>
-            </div>
-          </div>
-
-          <div className="mt-10 flex items-center justify-center p-2">
-            <div className="flex h-[100px] w-[800px] flex-col justify-center rounded-md bg-gray-400 text-center shadow-xl"></div>
-          </div>
+          <Quiz />
         </main>
       </section>
     </>
