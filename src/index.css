@@ -24,11 +24,3 @@
 .btn-start-font {
   @apply text-lg font-semibold uppercase text-white;
 }
-
-.answer-correct {
-  @apply bg-green-500;
-}
-
-.answer-incorrect {
-  @apply bg-red-500;
-}
