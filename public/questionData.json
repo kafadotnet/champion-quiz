@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "question": "When did Sweden join NATO?",
+      "options": [
+        "21 January 2023",
+        "12 March 2023",
+        "16 September 2022",
+        "7 January 2024"
+      ],
+      "rightAnswer": "7 January 2024"
+    },
+    {
+      "question": "Where in Sweden is Koenigsegg factory located?",
+      "options": ["Stockholm", "Linköping", "Skåne", "Örebro"],
+      "rightAnswer": "Skåne"
+    },
+    {
+      "question": "What makes Koenigsegg Gemera unique among hyper cars?",
+      "options": [
+        "It is an SUV",
+        "It is a hyper car",
+        "It provides four seats",
+        "It's a truck"
+      ],
+      "rightAnswer": "It provides four seats"
+    },
+    {
+      "question": "Which company manufactures Jas Gripen 39?",
+      "options": ["Scania", "Volvo", "VW", "Saab"],
+      "rightAnswer": "Saab"
+    },
+    {
+      "question": "What is DeepSeek?",
+      "options": [
+        "AI powered search tool",
+        "Search engine",
+        "E-commerce platform",
+        "A quiz app"
+      ],
+      "rightAnswer": "AI powered search tool"
+    },
+    {
+      "question": "On which day is Sweden's national day?",
+      "options": [
+        "12 March 2025",
+        "16 September 2025",
+        "24 May 1985",
+        "6 Jun 2025"
+      ],
+      "rightAnswer": "6 Jun 2025"
+    },
+    {
+      "question": "Which country is in the west of Sweden?",
+      "options": ["Denmark", "France", "Norway", "Rwanda"],
+      "rightAnswer": "Norway"
+    },
+    {
+      "question": "Who is the CEO of Spotify?",
+      "options": ["Björn D", "Daniel Ek", "Dolf Lundgren", "Christopher K."],
+      "rightAnswer": "Daniel Ek"
+    },
+    {
+      "question": "How many permanent countries are in the UN Security Council?",
+      "options": ["3", "7", "4", "5"],
+      "rightAnswer": "5"
+    },
+    {
+      "question": "Who has been the 45th and 47th American president?",
+      "options": [
+        "Donald Trump",
+        "Jimmy Carter",
+        "Barack Obama",
+        "Roosevelt Theodore"
+      ],
+      "rightAnswer": "Donald Trump"
+    }
+  ]
+}
