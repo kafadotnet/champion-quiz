@@ -133,7 +133,7 @@ const Quiz = () => {
                     Score: <span>{response.score}</span>
                   </p>
                   <p className="text-[18px] text-gray-700">
-                    All Answers: <span>{response.rightAnswers}</span>
+                    All right Answers: <span>{response.rightAnswers}</span>
                   </p>
                   <button className="mt-2 cursor-pointer rounded-md bg-gray-700 px-16 py-[6px] hover:bg-gray-600">
                     <NavLink to="/" className="font-semibold">
